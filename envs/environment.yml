@@ -7,11 +7,12 @@ dependencies:
 
   # Pulp version need to be <2.8 to prevent snakemake issues
   - conda-forge::pulp=2.7.0
-  - bioconda::snakemake=9.9.0
+  - bioconda::snakemake-minimal=9.9.0
 
   # Other tools
   - bioconda::samtools=1.22.1
-  - conda-forge::pandas=2.3.1
+  - conda-forge::pandas=3.1.0
+  - conda-forge::pyyaml=6.0.3
   - bioconda::vcftools=0.1.17
   - bioconda::minimap2=2.30
   - bioconda::gofasta=1.2.3
@@ -21,6 +22,8 @@ dependencies:
   - bioconda::pysam=0.23.3
   - bioconda::nextclade=3.15.3
   - conda-forge::openpyxl=3.1.5
+  - bioconda::ampliclip=1.2
+  - bioconda::virconsens=1.2
 
   # R packages
   - conda-forge::r-plotly=4.11.0
